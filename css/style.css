@@ -42,9 +42,6 @@ body {
 	letter-spacing: -0.6;
 }
 
-ul {
-	list-style: none;
-}
 
 body._lock {
 	overflow-y: hidden;
@@ -328,6 +325,7 @@ html {
 
 	-ms-overflow-style: none;
 	scrollbar-width: none;
+	list-style: none;
 }
 
 .nav-slider__items::after {
