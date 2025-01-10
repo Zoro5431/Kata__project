@@ -361,6 +361,10 @@ html {
 	transition: all 0.2s ease-in;
 }
 
+li::marker {
+	content: none;
+}
+
 .nav-slider__item:not(:last-child) {
 	margin-right: 5px;
 }
